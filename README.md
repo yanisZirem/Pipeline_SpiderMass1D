@@ -35,23 +35,26 @@ This Python script written in jupyter notebook performs analysis on mass spectro
 
 9. **save_contributions(csv_name, pipeline, X_train):**
     - Saves feature contributions in CSV format for all samples in the train set.
+  
+10. **plot_pca(data, num_components=2,custom_colors=custom_colors) :**
+    - plot_pca: Performs Principal Component Analysis (PCA) and creates scatter plots for visualizing data in reduced dimensions.
 
-10. **peak_picking(ms_data, min_sn=10):**
+11. **peak_picking(ms_data, min_sn=10):**
     - Performs peak picking on mass spectrometry data using Signal-to-Noise ratio.
     - Returns a DataFrame with picked peaks.
 
-11. **create_heatmap(data):**
+12. **create_heatmap(data):**
     - Creates a heatmap based on the data, clustering by class.
 
-12. **significant_features(data, alpha=0.05):**
+13. **significant_features(data, alpha=0.05):**
     - Conducts statistical analysis to find significant features.
     - Returns a list of significant feature columns.
 
-13. **boxplot_significant_features(data, mz_values, class_colors=None, test='Kruskal'):**
+14. **boxplot_significant_features(data, mz_values, class_colors=None, test='Kruskal'):**
     - Creates box plots for significant features.
     - Displays statistical annotations.
 
-14. **violin_significant_features(data, mz_values, class_colors=None, test='Kruskal'):**
+15. **violin_significant_features(data, mz_values, class_colors=None, test='Kruskal'):**
     - Creates violin plots for significant features.
     - Displays statistical annotations.
 
