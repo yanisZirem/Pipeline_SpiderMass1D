@@ -57,7 +57,14 @@ This Python script written in jupyter notebook performs analysis on mass spectro
 15. **violin_significant_features(data, mz_values, class_colors=None, test='Kruskal'):**
     - Creates violin plots for significant features.
     - Displays statistical annotations.
+    - 
+16. **one_box_plot(data, mz, test='Kruskal', class_colors=None):**
+    - Creates box plots for one mz feature.
+    - Displays statistical annotations.
 
+17. **violin_box_plot(data, mz, test='Kruskal', class_colors=None):**
+    - Creates violin plots for one mz feature.
+    - Displays statistical annotations.
 ## Usage
 
 1. Update the `data_file` variable in the script with the path to your mass spectrometry data file.
